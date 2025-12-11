@@ -655,4 +655,26 @@ footer .end span {
     left: 0;
     margin: 50px;
   }
+  /* SERVICES */
+  .services .services-box {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    row-gap: 30px;
+    column-gap: 30px;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+  }
+
+  .services .services-box .services-card {
+    width: 100%;
+    margin: 0;
+    padding: 7px;
+    font-size: small;
+  }
+
+  .services .services-box .services-card i {
+    font-size: 40px;
+  }
 }
