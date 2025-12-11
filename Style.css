@@ -927,5 +927,24 @@ footer .end span {
     .services {
       margin: 20px;
     }
+    /* ABOUT */
+    .about {
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+      padding: 0;
+    }
+
+    .about .about-text p {
+      width: 400px;
+    }
+
+    .about .about-text {
+      padding: 70px;
+    }
+
+    .about .about-images img {
+      width: 550px;
+      padding-left: 10px;
+    }
   }
 }
