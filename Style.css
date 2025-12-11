@@ -946,5 +946,21 @@ footer .end span {
       width: 550px;
       padding-left: 10px;
     }
+
+    /* FEATURED */
+    .featured-books {
+      padding: 0;
+      height: auto;
+    }
+
+    .featured-books h1 {
+      margin: 0;
+      margin-top: 100px;
+    }
+
+    .featured-books .featured-box {
+      margin: 20px;
+      height: 550px;
+    }
   }
 }
