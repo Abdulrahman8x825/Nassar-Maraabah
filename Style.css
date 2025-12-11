@@ -877,5 +877,46 @@ footer .end span {
   /* ===================== Ipad pro (768–1024) ===================== */
 
   @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    /* SECTION */
+    section {
+      height: auto;
+    }
+
+    section nav .logo img {
+      width: 70px;
+    }
+
+    /* HERO */
+    section .hero {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    section .hero .hero-images img {
+      width: 950px;
+    }
+
+    section .hero .hero-text {
+      margin-top: 200px;
+      margin-bottom: 20px;
+      text-align: left;
+      width: 90%;
+    }
+
+    section .hero .hero-text h1 {
+      text-align: left;
+    }
+
+    section .hero .hero-text p {
+      width: 900px;
+      font-size: 29px;
+      line-height: 30px;
+      text-align: left;
+    }
+
+    section .hero .hero-images {
+      margin: 150px;
+    }
   }
 }
