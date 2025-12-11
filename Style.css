@@ -204,3 +204,77 @@ section .hero .hero-images img {
   color: #fff;
   text-decoration: none;
 }
+
+/* ===================== FEATURED BOOKS ===================== */
+
+.featured-books {
+  width: 100%;
+  height: 100vh;
+  padding: 75px 0;
+}
+
+.featured-books h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.featured-books .featured-box {
+  width: 90%;
+  height: 60vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.featured-books .featured-box .featured-card {
+  width: 250px;
+  height: 500px;
+  text-align: center;
+  padding: 6px;
+  border: 1px solid #919191;
+  margin: auto 20px;
+}
+
+.featured-books .featured-box .featured-card:hover {
+  box-shadow: 0 0 5px #089da1;
+}
+
+.featured-books .featured-box .featured-card .featured-card-img img {
+  width: 200px;
+}
+
+.featured-books .featured-box .featured-card .featured-card-text h2 {
+  margin: 11px;
+}
+
+.featured-books .featured-box .featured-card .featured-card-text .writer {
+  color: #919191;
+}
+
+.featured-books .featured-box .featured-card .featured-card-text .categories {
+  color: #089da1;
+  margin-top: 9px;
+}
+
+.featured-books .featured-box .featured-card .featured-card-text .price {
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.featured-books .featured-box .featured-card .featured-card-text .price sub {
+  font-weight: 100;
+  padding: 0 5px;
+}
+
+.featured-books .featured-box .featured-card .featured-card-text .btn {
+  padding: 8px 15px;
+  border: 2px solid #089da1;
+  text-decoration: none;
+  color: #000;
+}
