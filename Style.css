@@ -754,4 +754,46 @@ footer .end span {
     height: 335px;
     width: 800px;
   }
+  /* REVIEWS */
+  .reviews .reviews-box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 950px;
+  }
+
+  .reviews .reviews-box .reviews-card {
+    width: 320px;
+    height: 208px;
+    padding: 2px;
+  }
+
+  .reviews .reviews-box .reviews-card i {
+    padding: 20px 50px 0px 0px;
+    font-size: 70px;
+  }
+
+  .reviews .reviews-box .reviews-card .reviewer {
+    width: 200px;
+  }
+
+  .reviews .reviews-box .reviews-card .reviewer img {
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+  }
+
+  .reviews .reviews-box .reviews-card .reviewer .reviewer-info h2 {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 12px;
+  }
+
+  .reviews .reviews-box .reviews-card .reviewer .reviewer-info p {
+    font-size: 12px;
+    margin-right: 10px;
+    height: auto;
+    width: 250px;
+    margin-top: 20px;
+    line-height: 10px;
+  }
 }
