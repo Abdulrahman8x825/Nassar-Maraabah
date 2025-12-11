@@ -593,6 +593,66 @@ footer .end span {
 /* ===================== MOBILE (375–430) ===================== */
 
 @media only screen and (min-width: 375px) and (max-width: 430px) and (max-height: 900px) and (orientation: portrait) {
+  /* NAVBAR */
+  section nav {
+    padding: 0px 15px;
+    justify-content: space-between;
+  }
 
-  
+  section nav .logo img {
+    width: 50px;
+  }
+
+  section nav ul {
+    display: none;
+  }
+
+  /* SECTION */
+  section {
+    height: auto;
+  }
+
+  /* HERO */
+  section .hero {
+    flex-direction: column;
+    text-align: center;
+    top: 60px;
+    padding-bottom: 60px;
+  }
+
+  section .hero .hero-text {
+    left: 0;
+  }
+
+  section .hero .hero-text h1 {
+    font-size: 32px;
+    top: 0;
+    left: 0;
+    padding: 150px 10px 10px;
+    width: 100%;
+  }
+
+  section .hero .hero-text p {
+    font-size: 15px;
+    width: 90%;
+    line-height: 20px;
+    margin: 10px auto;
+    top: 10px;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 10px;
+  }
+
+  section .hero .hero-text .btn {
+    top: 25px;
+    left: 0;
+    margin: 50px;
+  }
+
+  section .hero .hero-images img {
+    width: 260px;
+    top: 40px;
+    left: 0;
+    margin: 50px;
+  }
 }
