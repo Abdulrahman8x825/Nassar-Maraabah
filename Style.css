@@ -278,3 +278,77 @@ section .hero .hero-images img {
   text-decoration: none;
   color: #000;
 }
+
+/* ===================== ARRIVALS ===================== */
+
+.Arrivals {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 35px;
+}
+
+.Arrivals h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.Arrivals .Arrivals-box {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 25px 0;
+}
+
+.Arrivals .Arrivals-box .Arrivals-card {
+  width: 220px;
+  height: 350px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #919191;
+  margin: auto 20px;
+}
+
+.Arrivals .Arrivals-box .Arrivals-card:hover {
+  box-shadow: 0 0 5px #089da1;
+}
+
+.Arrivals .Arrivals-box .Arrivals-card .arrivals-image {
+  width: 150px;
+  height: 220px;
+  margin: 0 auto;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.Arrivals .Arrivals-box .Arrivals-card .arrivals-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.3s;
+}
+
+.Arrivals .Arrivals-box .Arrivals-card:hover .arrivals-image img {
+  transform: scale(1.1);
+}
+
+.Arrivals .Arrivals-box .Arrivals-card .arrivals-text p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin: 8px 0;
+}
+
+.Arrivals .Arrivals-box .Arrivals-card .arrivals-text .arrivals-icons {
+  color: #089da1;
+  margin-bottom: 20px;
+}
+
+.Arrivals .Arrivals-box .Arrivals-card .arrivals-text .btn {
+  padding: 8px 15px;
+  border: 2px solid #089da1;
+  text-decoration: none;
+  color: #000;
+}
