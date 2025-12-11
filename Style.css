@@ -980,5 +980,24 @@ footer .end span {
       gap: 60px;
       margin-bottom: 90px;
     }
+    /* REVIEWS */
+    .reviews {
+      height: auto;
+    }
+
+    .reviews h1 {
+      margin: 0;
+      margin-bottom: 30px;
+    }
+
+    .reviews .reviews-box {
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+      margin: 0;
+      padding: 0;
+      margin-left: 70px;
+      gap: 0;
+      align-content: left;
+    }
   }
 }
