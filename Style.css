@@ -877,6 +877,19 @@ footer .end span {
   /* ===================== Ipad pro (768–1024) ===================== */
 
   @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    body::-webkit-scrollbar {
+      width: 10px;
+      height: 12px;
+    }
+
+    body::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    body::-webkit-scrollbar-thumb {
+      background: #089da1;
+      border-radius: 10px;
+    }
     /* SECTION */
     section {
       height: auto;
