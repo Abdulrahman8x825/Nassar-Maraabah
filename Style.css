@@ -837,4 +837,28 @@ footer .end span {
   .blog .blog-box .blog-card .blog-image {
     width: 350px;
   }
+
+  /* FOOTER */
+  footer {
+    padding: 20px;
+  }
+
+  footer .footer-main {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-left: 20px;
+    margin-bottom: 35px;
+  }
+
+  footer .footer-main .parts p {
+    width: 90%;
+  }
+
+  footer .footer-main .parts {
+    text-align: left;
+  }
+
+  footer .end {
+    margin-bottom: 20px;
+  }
 }
