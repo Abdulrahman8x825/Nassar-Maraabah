@@ -999,5 +999,23 @@ footer .end span {
       gap: 0;
       align-content: left;
     }
+    /* BANNER */
+    body,
+    html {
+      overflow-x: hidden;
+    }
+
+    .banner {
+      height: 300px;
+      margin-top: 50px;
+      width: 1100px;
+      background-size: 300%;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .banner .btn {
+      top: 70%;
+    }
   }
 }
