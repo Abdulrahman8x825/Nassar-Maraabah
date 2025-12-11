@@ -353,7 +353,6 @@ section .hero .hero-images img {
   color: #000;
 }
 
-
 /* ===================== REVIEWS ===================== */
 
 .reviews {
@@ -412,7 +411,6 @@ section .hero .hero-images img {
   padding: 0 2px;
 }
 
-
 /* ===================== BANNER ===================== */
 
 .banner {
@@ -433,8 +431,6 @@ section .hero .hero-images img {
   top: 70%;
   left: 7%;
 }
-
-
 
 /* ===================== BLOG ===================== */
 
@@ -498,7 +494,6 @@ section .hero .hero-images img {
   color: #089da1;
   cursor: pointer;
 }
-
 
 /* ===================== FOOTER ===================== */
 
@@ -589,4 +584,15 @@ footer .end {
 footer .end span {
   color: #089da1;
   margin-left: 8px;
+}
+
+/* ===================================================== */
+/* ===================== MEDIA QUERIES ================= */
+/* ===================================================== */
+
+/* ===================== MOBILE (375–430) ===================== */
+
+@media only screen and (min-width: 375px) and (max-width: 430px) and (max-height: 900px) and (orientation: portrait) {
+
+  
 }
