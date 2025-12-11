@@ -677,4 +677,24 @@ footer .end span {
   .services .services-box .services-card i {
     font-size: 40px;
   }
+
+  /* ABOUT */
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about .about-images img {
+    width: 90%;
+  }
+
+  .about .about-text h1 {
+    padding: 60px 0px 10px;
+    font-size: xx-large;
+  }
+
+  .about .about-text p {
+    width: 90%;
+    margin: 0 auto 30px auto;
+  }
 }
