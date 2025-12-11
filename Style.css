@@ -1,92 +1,136 @@
+/* ===================== GLOBAL STYLES ===================== */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-      .hero {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 40px 80px;
-        background: url("bg.png") no-repeat center/cover;
-        min-height: 450px;
-      }
+::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+}
 
-      .hero-text {
-        width: 40%;
-      }
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
 
-      .hero-text h1 {
-        margin: 0;
-        font-size: 48px;
-        font-weight: bold;
-      }
+::-webkit-scrollbar-thumb {
+  background: #089da1;
+  border-radius: 10px;
+}
 
-      .hero-text .colored {
-        color: #009688;
-      }
+html {
+  scroll-behavior: smooth;
+}
 
-      .hero-text p {
-        margin: 20px 0;
-        font-size: 16px;
-        color: #444;
-        line-height: 1.4;
-      }
+/* ===================== HOME / SECTION ===================== */
 
-      .btn {
-        display: inline-block;
-        padding: 10px 22px;
-        background: #009688;
-        color: white;
-        text-decoration: none;
-        border-radius: 4px;
-        font-weight: bold;
-      }
+section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(image/bg.png);
+  background-size: cover;
+  background-position: center;
+}
 
-      .hero-images {
-        display: flex;
-        gap: 12px;
-      }
+/* NAVBAR */
+section nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0 10px #089da1;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  z-index: 100;
+}
 
-      .hero-images img {
-        height: 220px;
-        border-radius: 6px;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
-      }
- 
- 
- 
- 
- .features {
-        display: flex;
-        justify-content: space-between;
-        gap: 20px;
-      }
-      .card {
-        padding: 20px 10px;
-        border-style: ridge;
-        width: 250px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-        text-align: center;
-        border: 1px solid #d2e0df;
-      }
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-        padding: 50px;
-        background: #f4f7f6;
-      }
+section nav .logo img {
+  width: 100px;
+  cursor: pointer;
+  margin: 8px 0;
+}
 
-      .card img {
-        width: 55px;
-        margin-bottom: 10px;
-      }
+section nav ul {
+  list-style: none;
+}
 
-      .card h3 {
-        margin: 8px 0;
-        color: #036c6c;
-      }
+section nav li {
+  display: inline-block;
+  padding: 0 10px;
+}
 
-      .card p {
-        font-size: 14px;
-        color: #555;
-        line-height: 1.4;
-      }
-      
+section nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+section nav li a:hover {
+  color: #089da1;
+}
+
+section nav .social-icons i {
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+section nav .social-icons i:hover {
+  color: #089da1;
+  cursor: pointer;
+}
+
+/* HERO SECTION */
+section .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 10%;
+  background: url("bg.png") no-repeat center/cover;
+}
+
+section .hero .hero-text {
+  position: relative;
+  font-size: 18px;
+  left: 25px;
+}
+
+section .hero .hero-text h1 {
+  position: relative;
+  font-size: 55px;
+  top: 80px;
+  left: 25px;
+}
+
+section .hero .hero-text .colored {
+  color: #089da1;
+}
+
+section .hero .hero-text p {
+  width: 650px;
+  text-align: justify;
+  position: relative;
+  line-height: 22px;
+  top: 125px;
+  left: 25px;
+}
+
+section .hero .hero-text .btn {
+  background: #089da1;
+  padding: 10px 20px;
+  position: relative;
+  top: 200px;
+  left: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+section .hero .hero-images img {
+  width: 780px;
+  position: relative;
+  top: 90px;
+  left: 20px;
+}
