@@ -180,3 +180,27 @@ section .hero .hero-images img {
   align-items: center;
   justify-content: space-around;
 }
+
+.about .about-images img {
+  width: 850px;
+}
+
+.about .about-text h1 {
+  font-size: 50px;
+  position: relative;
+  bottom: 35px;
+}
+
+.about .about-text p {
+  line-height: 22px;
+  width: 600px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.about .about-text .btn {
+  padding: 10px 20px;
+  background: #089da1;
+  color: #fff;
+  text-decoration: none;
+}
