@@ -697,4 +697,45 @@ footer .end span {
     width: 90%;
     margin: 0 auto 30px auto;
   }
+  /* FEATURED */
+  .featured-books {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .featured-books h1 {
+    font-size: 32px;
+    padding-top: 250px;
+  }
+
+  .featured-books .featured-box {
+    display: flex !important;
+    overflow-x: auto !important;
+    overflow-y: hidden;
+    height: auto !important;
+    grid-template-columns: none !important;
+    scroll-snap-type: x mandatory;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .featured-books .featured-box .featured-card {
+    flex: 0 0 220px;
+    scroll-snap-align: center;
+    margin: 0 !important;
+    padding: 30px;
+  }
+
+  .featured-books .featured-box .featured-card .featured-card-img img {
+    width: 150px;
+  }
+
+  .featured-books .featured-box::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .featured-books .featured-box::-webkit-scrollbar-thumb {
+    background: #089da1;
+    border-radius: 10px;
+  }
 }
