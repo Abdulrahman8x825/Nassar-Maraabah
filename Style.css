@@ -1017,5 +1017,26 @@ footer .end span {
     .banner .btn {
       top: 70%;
     }
+    /* BLOG */
+    .blog {
+      margin-top: 2px;
+      margin-bottom: 60px;
+    }
+
+    .blog .blog-box {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .blog .blog-box .blog-card {
+      width: 400px;
+    }
+    .blog .blog-box .blog-card .blog-image {
+      width: 400px;
+    }
   }
 }
