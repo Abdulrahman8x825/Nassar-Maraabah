@@ -738,4 +738,20 @@ footer .end span {
     background: #089da1;
     border-radius: 10px;
   }
+  /* ARRIVALS */
+  .Arrivals {
+    height: auto;
+  }
+
+  .Arrivals .Arrivals-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    height: 4000px;
+  }
+
+  .Arrivals .Arrivals-box .Arrivals-card {
+    height: 335px;
+    width: 800px;
+  }
 }
